@@ -32,7 +32,7 @@
     formData.append('email', email);
     formData.append('subject', subject);
     formData.append('message', message);
-    formData.append('access_key', '04e0343e-e44d-46d5-88f2-40e195b13724'); // Replace with your actual access key
+    formData.append('access_key', 'key here'); // Replace with your actual access key
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
